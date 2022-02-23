@@ -4,42 +4,814 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/01css.css">
     <title>Document</title>
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="css/02.css">
+    <link rel="stylesheet" media="screen and (min-width:769px)" href="css/01.css">
 </head>
-
 <body>
-    <div class="container">
+    <div class="container_nav" id="home">
         <div class="nav">
             <div class="logo">
-               <a href=""> <img src="img/Logo.png" class="logo_img" ></a>
-             </div>
-            <ul class="nav_list">
-                <li><a href="">Home</a></li>
-                <li><a href="html/about.html">About me</a></li>
-                <li><a href="html/dissertation.html">Dissertation</a></li>
-                <li><a href="html/grasshopper.html">Grasshopper</a></li>
-                <li><a href="html/contact.html">Contact</a></li>
-                <li class="english"><a href="">Japanese</a></li>
-            </ul>
-       </div>
-    </div>
-
-    <div class="container_1">
-        <p class="welcome">Welcome to</p>
-    </div>
-    
-
-    <div class="container_2">
-    <p class="Tatsuki_page">Tatsuki's Page</p>
+                <a href="#home"><img src="img/Logo.png" class="img_logo_1"></a>
+            </div>
+            <div class="list_nav">
+                <ul class="nav_list_inside">
+                    <li ><a href="#home" class="list_home">Home</a></li>
+                    <li ><a href="#about" class="list_about">About me</a></li>
+                    <li ><a href="#dissertation" class="list_dissertation">Dissertation</a></li>
+                    <li ><a href="#grasshopper"  class="list_grasshopper">Grasshopper</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="img_home">
+         <img src="img/back1.png" class="img_home_img">
+        </div>
 
     </div>
 
-<div class="container_3">
-    <div class="fotter">
-        <p class="copyright">Copyright   Tatauki Fujiu  All rights reserved</p>
+<!-- ここまでがナビゲーションバー -->
+
+<!-- ここから背景画像とたいとる -->
+
+  <div class="container_home">
+        <div class="welcome">
+            <p>Welcome to</p>
+        </div>
+        <div class="Tatsuki_page">
+            <p>Tatsuki's Page</p>
+        </div>
+  </div>
+
+<!-- 空白 -->
+<div class="empty_blank1"></div>
+<div class="empty_blank1" id="about"></div>
+
+ <!-- ここからabout me -->
+
+ <div class="container_about" >
+     <div class="title_about">
+         <p class="p_about">About me</p>
+     </div>
+     <div class="contents_about">
+        <div class="left_about">
+            <div class="left_top_about">
+                <div class="px_about"></div>
+                <div class="name_en_about">
+                    <p>Tatsuki Fujiu</p>
+                </div>
+                <div class="name_ja_about">
+                    <p>藤生　竜季</p>
+                </div>
+                <div class="px_about"></div>
+            </div>
+            <div class="left_bottom_about">
+                <div class="emp_about"></div>
+                <div class="bottom1_about">
+                    <p>Education</p>
+                </div>
+                <div class="emp_about"></div>
+                <div class="bottom2_about">
+                    <ul class="list_b_about">
+                        <li>2012/4　　Inada junior heigh school　　enrolled</li>
+                        <li>2015/3　　Inada junior heigh school　　graduated</li>
+                        <li>2015/4　　Zama high school　　&nbsp  &nbsp &nbsp &nbsp &nbsp enrolled</li>
+                        <li>2018/3　　Zama high school　　&nbsp  &nbsp &nbsp &nbsp &nbsp graduated</li>
+                        <li>2018/4　　Meiji University　　&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  enrolled</li>
+                        <li>2022/3　　Meiji University　　&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp graduated</li>
+                    </ul>
+                </div>
+                <div class="emp_about"></div>
+                <div class="bottom3_about">
+                    <p>Experience</p>
+                </div>
+                <div class="emp_about"></div>
+                <div class="bottom4_about">
+                    <ul class="list_b_about">
+                        <li>Apple Japan Intern</li>
+                        <li>Sugimoto Architecture office Intern</li>
+                    </ul>
+                </div>
+                <div class="emp_about"></div>
+                <div class="emp1_about"></div>
+
+                
+            </div>
+        </div>
+
+
+        <div class="right_about">
+            <img src="img/thai.png" class="thai_about">
+        </div>
     </div>
+ </div>
+
+ <!-- ここまででaboutは終了 -->
+
+ <!-- 空白 -->
+<div class="empty_blank1"></div>
+<div class="empty_blank1" id="dissertation"></div>
+
+<!-- ここからdissetation -->
+
+<div class="container_dis">
+    <div class="title_dis">
+        <p class="p_dis">Dissertation</p>
+    </div>
+    <div class="contents_dis">
+        <div class="con1_dis">
+            <div class="p_maintitle_dis">Steiner angle frame arrangement</div>
+            <div class="p_subtitle_dis">- in-plate mechanical propaties and structural morphogenesis program with Grasshopper -</div>
+        </div>
+        <div class="con2_dis">
+            <div class="con2_sub_dis">Overview</div>
+        </div>
+        <div class="con3_dis">
+            <div class="box_con3_dis">
+                <!-- ここにoverviewを入力 -->
+                &nbsp;In recent years, the academic field of biomimetics, which aims to create new things by mimicking the movements, functions, and forms of living organisms, has been attracting attention. Research is being conducted in a variety of fields, including medicine and machinery.<br><br>
+                &nbsp;One of the form that exists in nature is the minimal surface of the soap film. This is a property of soap film where the surface tension on the membrane is minimized, and adjacent soap film join together to minimize each other's surface tension, and the joining point is mathematically called <span>the Steiner point.</span> Any line connecting Steiner points form an angle of 120°.<br><br>
+                &nbsp;Various geometries such as hexagonal lattices have been studied recently for the frame arrangement. Therefore, I have studied a framework arrangement that forms this 120° angle (hereinafter referred to as <span>"Steiner angle frame arrangement"</span>), which has not been studied.
+            </div>
+        </div>
+        <div class="con4_dis">
+            <div class="con4_sub_dis">DownLoad</div>
+        </div>
+        <div class="con5_dis_con">
+            <div class="con5_dis">
+                <div><a href="dissertation/Full_version_of_my_dissertation(Japanese).pdf" class="con5_sub1_dis" download>Full version of my dissertation(japanese)</a></div>
+                <div><a href="dissertation/Outline_of_my_dissertation(Japanese).pdf" class="con5_sub2_dis" download>Outline of my dissertation(japanese)</a></div>
+            </div>
+            <div class="con5_english_update">
+                (English version will be uploaded soon.)
+            </div>
+        </div>
+    </div>
+    <div class="emp1_about"></div>
 </div>
+
+<!-- dissertationはここまで -->
+
+ <!-- 空白 -->
+ <div class="empty_blank1"></div>
+ <div class="empty_blank1" id="grasshopper"></div>
+
+<!-- ここからgrasshopper -->
+
+<div class="cotainer_grass">
+    <div class="title_grass">
+        <p class="p_grass">Grasshopper</p>
+    </div>
+    <div class="first_title_grass">
+        I made several parametric design programs in Grasshopper and optimized them. <br>
+        Here, You can find what I did with Grasshopper and it's Plugin(galapagos,octpus).
+    </div>
+    <div class="table_container_grass">
+        <div class="table_grass">
+            <div class="table_title_grass">Table of Contents</div>
+            <ol class="ol_grass">
+                <li><a href="#grass_1">Grasshopper component that makes Steiner angle frame arrangement</a></li>
+                <li><a href="#grass_2">Optimization of Steiner angle frame arrangement with Karamba and Galapagos</a></li>
+                <li><a href="#grass_3">Cross section optimization with Karamba and Octpus</a></li>
+            </ol>
+        </div>
+    </div>
+
+       <!-- ここからコンテンツ１（これからコンテンツを追加するときに使う） -->
+
+    <!-- 空白 -->
+
+    <div class="empty_blank1" id="grass_1"></div>
+
+ 
+
+
+
+    <div class="grass_1_steiner_component" >
+        1. Grasshopper component that makes Steiner angle frame arrangement
+    </div>
+    <div class="grass_1_overview">
+        In my dissertation, I wrote about Component tha generates Steiner angle frame arrangement parametrically. This is the Component that I made. You are able to finddetails aboutSteiner angle in Outline of my dissertation above.
+    </div>
+    <div class="grass_1_img">
+        <img src="img/grass_1.png">
+    </div>
+
+    <!-- 空白 -->
+    <div class="emp_grass_1"></div>
+    
+    <div class="code_grass_1">
+        <div class="code_left_grass_1">
+            <div class="code_left_bottom_grass_1">
+                <div class="code_box_grass_1">
+
+                   <pre> <code>              
+                        1.	"""Provides a scripting component.
+                        2.	Inputs:
+                        3.	x: The x script variable
+                        4.	y: The y script variable
+                        5.	Output:
+                        6.	a: The a output variable"""
+                        7.	__author__ = "tomilab"
+                        8.	__version__ = "2021.12.26"
+                        9.	import rhinoscriptsyntax as rs
+                        10.	
+                        11.	# x is all intersected lines(list_intersectedline)
+                        12.	#lengthはこの世代の部材長
+                        13.	
+                        14.	list_lineall = []
+                        15.	list_pointall =[]
+                        16.	list_endpoint2 = []
+                        17.	list_test1 =[]
+                        18.	list_test2 =[]
+                        19.	list_test3 = []
+                        20.	list_test4 = []
+                        21.	
+                        22.	for i in range(len(x)):
+                        23.	　endpoint1 = rs.CurveEndPoint(x[i])
+                        24.	　line01 = x[i]
+                        25.	　for j in range(len(x)):
+                        26.	　　endpoint2 = rs.CurveEndPoint(x[j])
+                        27.	　　line02 = x[j]
+                        28.	　　angle1_r =round(rs.Angle(rs.CurveEndPoint(line01),rs.CurveStartPoint(line01))[0])
+                        29.	　　angle2_r =round(rs.Angle(rs.CurveEndPoint(line02),rs.CurveStartPoint(line02))[0])
+                        30.	　　if endpoint1 == endpoint2 and angle1_r != angle2_r :
+                        31.	　　　line1 = x[i]
+                        32.	　　　line2 = x[j]
+                        33.	　　　point1_start = rs.CurveStartPoint(line1)
+                        34.	　　　point1_end = rs.CurveEndPoint(line1)
+                        35.	　　　point2_start = rs.CurveStartPoint(line2)
+                        36.	　　　point2_end = rs.CurveEndPoint(line2)
+                        37.	　　　angle1 = rs.Angle(point1_end,point1_start)[0]
+                        38.	　　　angle2 = rs.Angle(point2_end,point2_start)[0]
+                        39.	　　　angle1_n = angle1 + 120
+                        40.	　　　angle2_n = angle2 - 120
+                        41.	　　　angle1_nr1 =round(angle1_n)
+                        42.	　　　angle2_nr1 = round(angle2_n)
+                        43.	　　　if angle1_nr1 < 0 :
+                        44.	　　　　angle1_nr = angle1_nr1 + 360
+                        45.	　　　else:
+                        46.	　　　　angle1_nr = angle1_nr1
+                        47.	　　　if angle2_nr1 < 0 :
+                        48.	　　　　angle2_nr =angle2_nr1 + 360
+                        49.	　　　else:
+                        50.	　　　　angle2_nr = angle2_nr1
+                        51.	　　　if angle1_nr == angle2_nr :
+                        52.	　　　　angle3 = angle1_nr
+                        53.	　　　elif angle1_nr - angle2_nr == 120 or angle1_nr - angle2_nr ==-120  or /
+                        54.	　　　angle1_nr - angle2_nr ==240 or angle1_nr - angle2_nr == -240:
+                        55.	　　　　angle3 = angle1_nr -240
+                        56.	　　　else:
+                        57.	　　　　print "no”
+                        58.	　　　　angle3 = 16 #これは一時的に設定した任意の数
+                        59.	　　　if angle3 == 16 :
+                        60.	　　　　print " remove exclusive"
+                        61.	　　　else :
+                        62.	　　　　import math
+                        63.	　　　　cos1 = math.cos(math.radians(angle3))
+                        64.	　　　　sin1 = math.sin(math.radians(angle3))
+                        65.	　　　　startpoint_cor = endpoint1
+                        66.	　　　　startpoint_corx = endpoint1[0]
+                        67.	　　　　startpoint_cory = endpoint1[1]
+                        68.	　　　　l = length
+                        69.	　　　　point3 = rs.AddPoint(l*cos1+startpoint_corx,l*sin1+startpoint_cory,0)
+                        70.	　　　　line3 = rs.AddLine(startpoint_cor,point3)
+                        71.	　　　　list_lineall.append(line3)
+                        72.	　　　　list_pointall.append(point3)
+                                        </code></pre>
+
+                                        </div>
+                                    </div>
+                                    <div class="code_left_top_grass_1">Component1(PythonScript)</div>
+                                </div>
+                                <div class="code_right_grass_1">
+                                    <div class="code_right_bottom_grass_1">
+                                        <div class="code_box_grass_1">
+                                            <pre><code>
+                        1.	"""Provides a scripting component.
+                        2.	Inputs:
+                        3.	x: The x script variable
+                        4.	y: The y script variable
+                        5.	Output:
+                        6.	a: The a output variable"""
+                        7.	
+                        8.	__author__ = "tomilab"
+                        9.	__version__ = "2021.12.26"
+                        10.	
+                        11.	import rhinoscriptsyntax as rs
+                        12.	
+                        13.	#x = 前世代の全部のlineのlist
+                        14.	#lengthはこの世代の部材長
+                        15.	#length5は第五世代の部材長（最大部材長）
+                        16.	#前世代LINE全てのend,startのpointを取得
+                        17.	#list_xstart = 前世代すべてのLINEのstartpointのlist
+                        18.	#list_xend = 前世代すべてのLINEのendpointのlist
+                        19.	
+                        20.	list_xstart = []
+                        21.	list_xend = []
+                        22.	
+                        23.	for i in range(len(x)):
+                        24.	　x_startpoint = rs.CurveStartPoint(x[i])
+                        25.	　x_endpoint = rs.CurveEndPoint(x[i])
+                        26.	　list_xstart.append(x_startpoint)
+                        27.	　list_xend.append(x_endpoint)
+                        28.	
+                        29.	#前世代LINEのendとstartpointを用いて角度を計算し/
+                        30.	そこから新たな点を創出しLINEを最大部材（length5)を用いて書き、/
+                        31.	そこからintersectionを取得する
+                        32.	#d = 前世代LINEの角度(degree)
+                        33.	#list_point1 = 新しい点のリスト
+                        34.	#list_point2 = 新しい点のリスト（新しい点がpoint1,2に分かれているのでリストも二つある）
+                        35.	#list_line1 = 新しい線のリスト
+                        36.	#list_line2 = 新しい線のリスト→（新しい点同様の理由からリストが二つある）
+                        37.	
+                        38.	list_point1 =[]
+                        39.	list_point2 =[]
+                        40.	list_line1 = []
+                        41.	list_line2 = []
+                        42.	
+                        43.	for i in range(len(list_xstart)):
+                        44.	　pointx = list_xstart[i]
+                        45.	　pointy = list_xend[i]
+                        46.	　b =rs.Angle(pointy,pointx)
+                        47.	　d = b[0]
+                        48.	　q = d+120
+                        49.	　r = d+240
+                        50.	　import math
+                        51.	　angle1 = math.radians(q)
+                        52.	　angle2 = math.radians(r)
+                        53.	　cos1 = math.cos(angle1)
+                        54.	　cos2 = math.cos(angle2)
+                        55.	　sin1 = math.sin(angle1)
+                        56.	　sin2 = math.sin(angle2)
+                        57.	　y_cor = pointy
+                        58.	　x_cor = pointx
+                        59.	　y_corx = y_cor[0]
+                        60.	　y_cory = y_cor[1]
+                        61.	　l = length5
+                        62.	　point1 = rs.AddPoint(l*cos1+y_corx,l*sin1+y_cory,0)
+                        63.	　point2 = rs.AddPoint(l*cos2+y_corx,l*sin2+y_cory,0)
+                        64.	　line1 = rs.AddLine(pointy,point1)
+                        65.	　line2 = rs.AddLine(pointy,point2)
+                        66.	　list_point1.append(point1)
+                        67.	　list_point2.append(point2)
+                        68.	　list_line1.append(line1)
+                        69.	　list_line2.append(line2)
+                        70.	
+                        71.	#list_pointall =新しいポイントすべて合わせたlist
+                        72.	#list_lineall = 新しい線すべて合わせたlist
+                        73.	
+                        74.	list_pointall = list_point1 + list_point2
+                        75.	list_lineall = list_line1 + list_line2
+                        76.	
+                        77.	#curveのすべての交点を取得
+                        78.	
+                        79.	list_allintersection1 = []
+                        80.	list_line1112 =[]
+                        81.	
+                        82.	for i in range(len(list_lineall)):
+                        83.	　line11 = list_lineall[i]
+                        84.	　for j in range(len(list_lineall)):
+                        85.	　　line12 = list_lineall[j]
+                        86.	　　intersecpoint = rs.LineLineIntersection(line11,line12)
+                        87.	　　if not intersecpoint is None:
+                        88.	　　　list_allintersection1.append(intersecpoint)
+                        89.	　　　list_line1112.append((line11,line12))
+                        90.	
+                        91.	list_allintersection = []
+                        92.	list_allintersection2 =[]
+                        93.	
+                        94.	for i in range(len(list_allintersection1)):
+                        95.	　intersection1  = rs.AddPoint(list_allintersection1[i][1])
+                        96.	　list_allintersection.append(intersection1)
+                        97.	
+                        98.	for i in range(len(list_allintersection)):
+                        99.	　m = rs.IsPointOnCurve(list_line1112[i][0],list_allintersection[i])
+                        100.	　n = rs.IsPointOnCurve(list_line1112[i][1],list_allintersection[i])
+                        101.	　realintersection = list_allintersection[i]
+                        102.	　if m is True and n is True:
+                        103.	　　list_allintersection2.append(realintersection)
+                        104.	
+                        105.	list_intersection_cor = []
+                        106.	
+                        107.	for i in range(len(list_allintersection2)):
+                        108.	　intersection_cor = rs.PointCoordinates(list_allintersection2[i])
+                        109.	　list_intersection_cor.append(intersection_cor)
+                        110.	
+                        111.	setintersectionall = set(list_intersection_cor)
+                        112.	setlistxend = set(list_xend)
+                        113.	bh = setintersectionall – setlistxend
+                        114.	list_onlyintersection = list(bh)
+                        115.	
+                        116.	#再度lineを創出☜絶対にここのﾌﾟﾛｸﾞﾗﾑを変更した方がいい。現在、対象ではない前世代lineの/
+                        117.	endpointとintersectionをつないでしまっている
+                        118.	#前世代LINE全てのend,startのpointを取得
+                        119.	#list_xstart = 前世代すべてのLINEのstartpointのlist
+                        120.	#list_xend = 前世代すべてのLINEのendpointのlist
+                        121.	
+                        122.	list_xstart = []
+                        123.	list_xend1 = []
+                        124.	
+                        125.	for i in range(len(x)):
+                        126.	　x_startpoint = rs.CurveStartPoint(x[i])
+                        127.	　x_endpoint = rs.CurveEndPoint(x[i])
+                        128.	　list_xstart.append(x_startpoint)
+                        129.	　list_xend.append(x_endpoint)
+                        130.	
+                        131.	#前世代LINEのendとstartpointを用いて角度を計算し、そこから新たな点を創出しLINEを書く
+                        132.	#d = 前世代LINEの角度(degree)
+                        133.	#list_point1 = 新しい点のリスト
+                        134.	#list_point2 = 新しい点のリスト（新しい点がpoint1,2に分かれているのでリストも二つある）
+                        135.	#list_line1 = 新しい線のリスト
+                        136.	#list_line2 = 新しい線のリスト→（新しい点同様の理由からリストが二つある）
+                        137.	
+                        138.	list_point =[]
+                        139.	list_point =[]
+                        140.	list_line1 = []
+                        141.	list_line2 = []
+                        142.	
+                        143.	for i in range(len(list_xstart)):
+                        144.	　pointx = list_xstart[i]
+                        145.	　pointy = list_xend[i]
+                        146.	　b =rs.Angle(pointy,pointx)
+                        147.	　d = b[0]
+                        148.	　q = d+120
+                        149.	　r = d+240
+                        150.	　import math
+                        151.	　angle1 = math.radians(q)
+                        152.	　angle2 = math.radians(r)
+                        153.	　cos1 = math.cos(angle1)
+                        154.	　cos2 = math.cos(angle2)
+                        155.	　sin1 = math.sin(angle1)
+                        156.	　sin2 = math.sin(angle2)
+                        157.	　y_cor = pointy
+                        158.	　x_cor = pointx
+                        159.	　y_corx = y_cor[0]
+                        160.	　y_cory = y_cor[1]
+                        161.	　l = length
+                        162.	　point1 = rs.AddPoint(l*cos1+y_corx,l*sin1+y_cory,0)
+                        163.	　point2 = rs.AddPoint(l*cos2+y_corx,l*sin2+y_cory,0)
+                        164.	　line1 = rs.AddLine(pointy,point1)
+                        165.	　line2 = rs.AddLine(pointy,point2) 
+                        166.	
+                        167.	#一番近いintersectionpointとlineのendpointをつなぐ+もしもその距離が同じであれば2本創出する
+                        168.	
+                        169.	list_point1.append(point1)
+                        170.	list_point2.append(point2)
+                        171.	list_line1.append(line1)
+                        172.	list_line2.append(line2)
+                        173.	
+                        174.	#list_lineall = 新しい線すべて合わせたlist
+                        175.	
+                        176.	list_fixinglineall = list_line1 + list_line2
+                        177.	
+                        178.	#トリムしていく
+                        179.	
+                        180.	f = list_fixinglineall
+                        181.	O= list_onlyintersection
+                        182.	
+                        183.	list_f1 =[]
+                        184.	list_o1 = []
+                        185.	list_line =[]
+                        186.	objects1 = []
+                        187.	list_test_1=[]
+                        188.	list_test_2 =[]
+                        189.	list_test_3 =[]
+                        190.	list_l1=[]
+                        191.	list_remove123=[]
+                        192.	list_onew=[]
+                        193.	
+                        194.	for i in range(len(f)):
+                        195.	　f_start = rs.AddPoint(rs.CurveStartPoint(f[i]))
+                        196.	　f_end = rs.AddPoint(rs.CurveEndPoint(f[i]))
+                        197.	　list_test_1.append(f_start)
+                        198.	　list_test_2.append(f_end)
+                        199.	　for j in range(len(o)):
+                        200.	　　line__1 = rs.AddLine(f_start,o[j])
+                        201.	　　length_1 = round(rs.CurveLength(line__1))
+                        202.	　　angle1 = rs.Angle(f_start,o[j])[0]
+                        203.	　　angle2 = rs.Angle(o[j],f_end)[0]
+                        204.	　　if angle1 < 0:
+                        205.	　　　angle1_r = round(angle1) +360
+                        206.	　　else:
+                        207.	　　　angle1_r = round(angle1)
+                        208.	　　if angle2 < 0:
+                        209.	　　　angle2_r = round(angle2) + 360
+                        210.	　　else:
+                        211.	　　　angle2_r = round(angle2)
+                        212.	　　if round(angle1_r) == 360:
+                        213.	　　　angle1_r = 0
+                        214.	　　if round(angle2_r) == 360:
+                        215.	　　　angle2_r = 0
+                        216.	　　angle1_ar = angle1_r + 180
+                        217.	　　angle2_ar = angle2_r + 180
+                        218.	　　l5 = round(length5)
+                        219.	　　line__2 = rs.AddLine(o[j],f_end)
+                        220.	　　length_2 = round(rs.CurveLength(line__2))
+                        221.	　　if  length_1 <= l5 and /
+                        222.	　　(angle1_ar ==angle2_r or angle1_r ==angle2_ar or angle1_r == angle2_r)  :
+                        223.	　　　list_l1.append(length_1)
+                        224.	　　　list_f1.append(f_start)
+                        225.	　　　list_o1.append(o[j])
+                        226.	　　　objects1.append(f[i])
+                        227.	　　elif length_2 ==0 :
+                        228.	　　　list_l1.append(length_1)
+                        229.	　　　list_f1.append(f_start)
+                        230.	　　　list_o1.append(o[j])
+                        231.	　　　objects1.append(f[i])
+                        232.	
+                        233.	#list_f,list_o,objexrsそれぞれに重複しているものがあるためうまくいっていないから重複を消す
+                        234.	#ここからのlist_fとlist_oは座標が入る
+                        235.	
+                        236.	list_f = []
+                        237.	list_o = []
+                        238.	objects = []
+                        239.	listf_f2 = []
+                        240.	
+                        241.	list_f = list_f1
+                        242.	list_o = list_o1
+                        243.	objects = objects1
+                        244.	
+                        245.	for m in range(len(list_f)):
+                        246.	　ab = rs.AddLine(list_f[m],list_o[m])
+                        247.	　list_line.append(ab)
+                        248.	
+                        249.	#startとendのpointが等しいものを消去
+                        250.	
+                        251.	list_remove = []
+                        252.	
+                        253.	for n in range(len(f)):
+                        254.	　f_start1 = rs.CurveStartPoint(f[n])
+                        255.	　f_end1 = rs.CurveEndPoint(f[n])
+                        256.	　for t in  range(len(objects)):
+                        257.	　　f_startp = rs.CurveStartPoint(objects[t])
+                        258.	　　f_endp = rs.CurveEndPoint(objects[t])
+                        259.	　　if f_start1 == f_startp and f_end1 == f_endp:
+                        260.	　　　list_remove.append(f[n])
+                        261.	
+                        262.	set1 = set(f)
+                        263.	set2 = set(list_remove)
+                        264.	set3 = set(list_line)
+                        265.	c = set1 - set2
+                        266.	
+                        267.	b = c | set3
+                        268.	g = b - set3
+                        269.	list_fixedlineall = list(b)
+                        270.	list_nonintersectedline = list(g)
+                        271.	list_intersectedline = list(set3)
+                        272.	
+                        273.	#追加で、intersectedlineとstartpointが同じかつ /
+                        274.	角度も等しいlist_nonintersectedlinfeに存在するlineを取り除く
+                        275.	
+                        276.	list_test1 =[]
+                        277.	list_test2 =[]
+                        278.	list_test3 = []
+                        279.	list_test4 = []
+                        280.	list_wast = []
+                        281.	
+                        282.	for i in range(len(list_intersectedline)):
+                        283.	　startpoint_inter = rs.CurveStartPoint(list_intersectedline[i])
+                        284.	　endpoint_inter = rs.CurveEndPoint(list_intersectedline[i])
+                        285.	　angle_inter = rs.Angle(startpoint_inter,endpoint_inter)[0]
+                        286.	　angle_interr1 = round(angle_inter)
+                        287.	　if angle_interr1 < 0:
+                        288.	　　angle_interr = angle_interr1 +360
+                        289.	　else:
+                        290.	　　angle_interr = angle_interr1
+                        291.	　for j in range(len(list_nonintersectedline)):
+                        292.	　　startpoint_noninter = rs.CurveStartPoint(list_nonintersectedline[j])
+                        293.	　　endpoint_noninter = rs.CurveEndPoint(list_nonintersectedline[j])
+                        294.	　　angle_noninter = rs.Angle(startpoint_noninter,endpoint_noninter)[0]
+                        295.	　　angle_noninterr1 = round(angle_noninter)
+                        296.	　　if angle_noninterr1 < 0:
+                        297.	　　　angle_noninterr = angle_noninterr1 +360
+                        298.	　　else:
+                        299.	　　　angle_noninterr = angle_noninterr1
+                        300.	　　if angle_interr == angle_noninterr and /
+                        301.	　　round(startpoint_inter[0],1) == round(startpoint_noninter[0],1) and/
+                        302.	　　round(startpoint_inter[1],1) == round(startpoint_noninter[1],1)  :
+                        303.	　　　wast = list_nonintersectedline[j]
+                        304.	　　　list_wast.append(wast)
+                        305.	
+                        306.	set_wast = set(list_wast)
+                        307.	set_noninter = set(list_nonintersectedline)
+                        308.	set_newnoninter = set_noninter - set_wast
+                        309.	
+                        310.	list_nonintersectedlines = list(set_newnoninter)
+                        311.	list_fixedlines = list_nonintersectedlines + list_intersectedline
+                        312.	
+                        313.	#もし、startpointが同じでさらに角度が同じlineが二つあったら長い方は消す/
+                        314.	→これにより、intersectionがいくつもできてひし形ができてしまうのを制御する
+                        315.	
+                        316.	list_test1 =[]
+                        317.	list_test2 =[]
+                        318.	list_test3 = []
+                        319.	list_test4 = []
+                        320.	list_waste1 = []
+                        321.	list_waste2 = []
+                        322.	
+                        323.	for i in range(len(list_intersectedline)):
+                        324.	　startpoint_inter = rs.CurveStartPoint(list_intersectedline[i])
+                        325.	　endpoint_inter = rs.CurveEndPoint(list_intersectedline[i])
+                        326.	　angle_inter = rs.Angle(startpoint_inter,endpoint_inter)[0]
+                        327.	　angle_interr1 = round(angle_inter)
+                        328.	　length1 = round(rs.CurveLength(list_intersectedline[i]))
+                        329.	　if angle_interr1 < 0:
+                        330.	　　angle_interr = angle_interr1 +360
+                        331.	　else:
+                        332.	　　angle_interr = angle_interr1
+                        333.	　for j in range(len(list_intersectedline)):
+                        334.	　　startpoint_ainter = rs.CurveStartPoint(list_intersectedline[j])
+                        335.	　　endpoint_ainter = rs.CurveEndPoint(list_intersectedline[j])
+                        336.	　　angle_ainter = rs.Angle(startpoint_ainter,endpoint_ainter)[0]
+                        337.	　　angle_ainterr1 = round(angle_ainter)
+                        338.	　　length2 = round(rs.CurveLength(list_intersectedline[j]))
+                        339.	　if angle_ainterr1 < 0:
+                        340.	　　angle_ainterr = angle_ainterr1 +360
+                        341.	　else:
+                        342.	　　angle_ainterr = angle_ainterr1
+                        343.	　if  length1 >0 and length2 > 0 and i != j and angle_interr == angle_ainterr and /
+                        344.	　round(startpoint_inter[0]) == round(startpoint_ainter[0]) and /
+                        345.	　round(startpoint_inter[1]) == round(startpoint_ainter[1])  :
+                        346.	　　line11 = line1
+                        347.	　　line22 = line2
+                        348.	　　if length1 < length2 :
+                        349.	　　　waste = list_intersectedline[j]
+                        350.	　　　list_waste1.append(waste)
+                        351.	
+                        352.	set1 = set(list_waste1)
+                        353.	set2 = set(list_intersectedline)
+                        354.	set3 = set2 - set1
+                        355.	
+                        356.	list_intersectedlines1 = list(set3)
+                        357.	list_fixedlines = list_nonintersectedlines + list_intersectedlines1
+                        358.	
+                        359.	#消されてしまったnonintersectedlinesを再創出する
+                        360.	#list_line121212は重なっているのも合わせたすべての新しいﾗｲﾝ
+                        361.	
+                        362.	list_remove_1 =[]
+                        363.	
+                        364.	for i in range(len(list_intersectedlines1)):
+                        365.	　startpointofinter = rs.CurveStartPoint(list_intersectedlines1[i])
+                        366.	　endpointofinter = rs.CurveEndPoint(list_intersectedlines1[i])
+                        367.	　angleofinter = round(rs.Angle(startpointofinter,endpointofinter)[0])
+                        368.	　startpointofinter_x = round(startpointofinter[0])
+                        369.	　startpointofinter_y = round(startpointofinter[1])
+                        370.	　if angleofinter < 0:
+                        371.	　　angleofinter_1 = angleofinter +360
+                        372.	　else:
+                        373.	　　angleofinter_1 = angleofinter
+                        374.	　for j in range(len(list_fixinglineall)):
+                        375.	　　startpointofnew = rs.CurveStartPoint(list_fixinglineall[j])
+                        376.	　　endpointofnew = rs.CurveEndPoint(list_fixinglineall[j])
+                        377.	　　angleofnew = round(rs.Angle(startpointofnew,endpointofnew)[0])
+                        378.	　　startpointofnew_x = round(startpointofnew[0])
+                        379.	　　startpointofnew_y = round(startpointofnew[1])
+                        380.	　　if angleofnew < 0:
+                        381.	　　　angleofnew_1 = angleofnew +360
+                        382.	　　else:
+                        383.	　　　angleofnew_1 = angleofnew
+                        384.	　　if angleofinter_1 == angleofnew_1 and /
+                        385.	　　startpointofinter_x == startpointofnew_x and/
+                        386.	　　startpointofinter_y == startpointofnew_y:
+                        387.	　　　list_remove_1.append(list_fixinglineall[j])
+                        388.	
+                        389.	#何かあった時のためにとりあえず最大部材長よりも/
+                        390.	長い部材が創出されたときはそれを省くというﾌﾟﾛｸﾞﾗﾑ
+                        391.	
+                        392.	list_waste3 =[]
+                        393.	
+                        394.	for i in range(len(list_fixedlines)):
+                        395.	　length = round(rs.CurveLength(list_fixedlines[i]))
+                        396.	　l = round(length5)
+                        397.	　if length > l:
+                        398.	　　list_waste3.append(list_fixedlines[i])
+                        399.	
+                        400.	set_waste3 = set(list_waste3)
+                        401.	set_intersectedlines1 = set(list_intersectedlines1)
+                        402.	set1 = set(list_remove_1)
+                        403.	set2 = set(list_fixinglineall)
+                        404.	set3 = set_intersectedlines1 - set_waste3
+                        405.	set4 = set2 - set1
+                        406.	set5 = set4 - set_waste3
+                        407.	
+                        408.	list_nonintersectedlinesc = list(set5)
+                        409.	list_intersectedlines2 = list(set3)
+                        410.	
+                        411.	list_fixedlines = list_nonintersectedlinesc + list_intersectedlines2
+                    </code></pre>
+                </div>
+            </div>
+            <div class="code_right_top_grass_1">Component2(PythonScript)</div>
+        </div>
+    </div>
+
+    <div class="video_grass1">
+        <video src="video/grass_1.mp4" class="video_grass_1_con" controls></video>
+    </div>
+
+    <!-- 空白25px -->
+
+    <div class="emp_grass_down"></div>
+
+    <div class="download_grass_1">
+        <div class="download_title_grass_1">
+            DownLoad
+        </div>
+        <div class="download_content_grass_1">
+            <a href="grasshopper/Steiner_Component.zip" download>Steiner_Component</a>
+        </div>
+
+    </div>
+
+    <!-- ここまででコンテンツ１終わり -->
+    <!-- ここからコンテンツ２始まり -->
+
+     <!-- 空白⇃ -->
+
+     <div class="empty_blank1" id="grass_2"></div>
+
+     <!-- 空白↑ -->
+
+    <div class="grass_1_steiner_component" >
+         2. Optimization of Steiner angleframe arrangement with Karamba and Galapagos
+    </div>
+    <div class="grass_1_overview">
+         I used Karamaba(Plugin of Grasshopper) and Galapagos(Plugin of Grasshopper) to optimize Steiner angle frame arrangement. In the optimization, I tried to minimmize total member length
+    </div>
+
+    <div class="grass_2_img_down">
+        <div class="grass_1_img">
+            <img src="img/grass_2.png">
+        </div>
+        <div class="download_grass_1">
+            <div class="download_title_grass_1">
+                DownLoad
+            </div>
+            <div class="download_content_grass_1">
+                <a href="grasshopper/Steiner_Optimization.zip" download>Steiner_Optimization</a>
+            </div>
+
+        </div>
+    </div>
+   <!-- ここでコンテンツ２終わり -->
+   <!-- ここからコンテンツ３始まり -->
+
+     <!-- 空白⇃ -->
+
+     <div class="empty_blank1" id="grass_3"></div>
+
+     <!-- 空白↑ -->
+
+    <div class="grass_1_steiner_component" >
+         3. Cross section Optimization with Karamba and Octpus
+    </div>
+    <div class="grass_1_overview">
+        <!-- ここにoverview -->Uploaded soon.
+    </div>       
+        <!-- <div class="grass_2_img_down">
+        <div class="grass_1_img"> -->
+        <!-- ここにダイアグラム写真 -->
+        </div>
+        <!-- <div class="download_grass_1">
+            <div class="download_title_grass_1">
+                DownLoad
+            </div>
+            <div class="download_content_grass_1">-->
+                <a href="" download></a><!-- ここにダウンロードするファイル -->
+            </div>
+
+        </div> 
+    </div> 
+
+
+
+
+<!-- 空白 -->
+<div class="empty_blank1"></div>
+<div class="empty_blank1"></div>
+<div class="empty_blank1"></div>
+<!-- 空白 -->
+
+
+
+<!-- fotter↓ -->
+
+<div class="container_fotter"> 
+        <div class="contact_detail_fotter">
+            <a href="mailto:soccer1ta23@gmail.com"><img src="img/Mail.png" ></a>
+            <a href="https://www.instagram.com/0123tatsuki"><img src="img/insta.png"></a>
+            <a href="https://www.facebook.com/tatsuki.fujiu.5"><img src="img/facebook.png"></a>
+        </div>
+        <div class="copyright_fotter">
+           @copyright
+        </div>
+</div>
+
+        
+        
+<!-- fotter↑ -->
+
+
 
 </body>
 </html>
