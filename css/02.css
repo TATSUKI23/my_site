@@ -41,22 +41,22 @@ body{
     color:white;
     text-decoration: none;
     padding-right: 30px;
+    font-size: 10px;
 }
 
 /* ここまでがナビゲーションバー */
 
 
 .img_home_img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 750px;
+    height: auto;
 }
 
 
 
 .container_home{
-    width: 100%;
-    height: calc(100vh - 55px);
+    width: 750px;
+    height: 340px;
     display: flex;
     position: absolute;
     top: 55px;
@@ -66,17 +66,18 @@ body{
     margin: 0;
     padding: 0;
 
+
 }
  
 .welcome{
-    font-size: 20px;
+    font-size: 10px;
     color: white;
     font-weight: 200;
     font-style: oblique;
 }
 
 .Tatsuki_page{
-    font-size: 60px;
+    font-size: 40px;
     color: white;
     font-weight: 200;
     padding-top: 0;
@@ -100,7 +101,7 @@ body{
 /* ここからabout */
 
 .container_about{
-    width: 1200px;
+    width: 750px;
     height: 650px;
     margin: auto;
     display: flex;
@@ -252,10 +253,86 @@ body{
     width: 100%;
 }
 
+/* ここまでabout */
+/* ここからtower */
+
+.container_tower{
+    width: 750px;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    border-bottom: 0.5px solid black;
+    background-color: rgb(238, 238, 238);
+    margin: auto;
+}
+
+.title_tower{
+    width: 100%;
+    height: 150px;
+    border-bottom: 0.5px solid black;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+
+}
+
+.p_tower{
+    font-size: 50px;
+    font-weight: 400;
+    padding-top: 55px;
+
+}
+
+.overview_tower{
+    width: 600px;
+    height: 160px;
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+.img_tower{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_1_tower{
+    width:750px;
+    height: auto;
+}
+
+/* .img_2_tower{
+    width:450px;
+    height: auto;
+    margin-top: 10px;
+} */
+
+.video_tower{
+    width: 750px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.video_tower_1, .video_tower_2{
+    width: 750px;
+    height: auto;
+    margin: 10px;
+}
+
+/* ここまでtower */
 /* ここからdissertaiton */
 
 .container_dis{
-    width: 1200px;
+    width: 750px;
     height: auto;
     display: flex;
     flex-flow: column;
@@ -369,6 +446,11 @@ body{
     font-weight: 400;
 }
 
+.con5_english_update{
+    text-align: center;
+
+}
+
 
 
 /* ここまででdissertationおわり */
@@ -378,7 +460,7 @@ body{
 
 
 .container_grass{
-    width: 1200px;
+    width: 750px;
     height: auto;
     display: flex;
     flex-flow: column;
@@ -389,7 +471,7 @@ body{
 }
 
 .title_grass{
-    width: 1200px;
+    width: 750px;
     height: 150px;
     border-bottom: 0.5px solid black;
     display: flex;
@@ -423,7 +505,7 @@ body{
 }
 
 .table_grass{
-    width: 1000px;
+    width: 750px;
     height: auto;
     background-color: bisque;
     margin-top: 30px;
@@ -464,7 +546,7 @@ body{
 /* ここからcontents1（これからコンテンツを追加するときに使う） */
 
 .grass_1_steiner_component{
-    width: 1200px;
+    width: 750px;
     height: 60px;
     background-color: aquamarine;
     margin: auto;
@@ -477,7 +559,7 @@ body{
 }
 
 .grass_1_overview{
-    width: 1100px;
+    width: 600px;
     height: 140px;
     font-size: 15px;
     font-weight: 400;
@@ -488,13 +570,20 @@ body{
 }
 
 .grass_1_img{
-    width: 1200px;
-    height: 320px;
+    width: 750px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
 }
+
+.grass_1_img_con{
+    width: 750px;
+    height: auto;
+}
+
+
 
 .emp_grass_1{
     width: 100%;
@@ -502,17 +591,17 @@ body{
 }
 
 .code_grass_1{
-    width: 1200px;
-    height: 450px;
+    width: 750px;
+    height: auto;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    flex-flow: column;
     margin: auto;
 }
 
 .code_left_grass_1{
-    width: 600px;
-    height: 100%;
+    width: 700px;
+    height: 400px;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -520,8 +609,8 @@ body{
 }
 
 .code_right_grass_1{
-    width: 600px;
-    height: 100%;
+    width: 700px;
+    height: 400px;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -547,8 +636,8 @@ body{
 }
 
 .code_box_grass_1{
-    width: 500px;
-    height: 400px;
+    width: 600px;
+    height: 300px;
     background-color: rgb(30, 30, 30);
     padding-left: 20px;
     padding-right: 20px;
@@ -573,7 +662,7 @@ body{
 }
 
 .video_grass_1_con{
-    width: 900px;
+    width: 750px;
     height: auto;
 }
 
@@ -638,6 +727,69 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+
+.grass_2_img_con{
+    width: 750px;
+    height: auto;
+}
+
+/* ここまでコンテンツ２ */
+
+/* ここからfotter↓ */
+
+
+.container_fotter{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(41,41,41);
+
+}
+
+.contact_detail_fotter{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.copyright_fotter{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 100;
+    color: white;
+    background-color: black;
+}
+
+.contact_detail_fotter img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ここまでfotter↑ */
 
 
 
