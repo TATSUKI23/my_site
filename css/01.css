@@ -753,6 +753,17 @@ body{
     align-items: center;
 }
 
+/* ここからコンテンツ5 */
+.empty_blank2{    
+    width: 1200px;
+    height: 40px;
+    margin: auto;
+    background-color: rgb(238, 238, 238);
+
+
+
+}
+
 
 /* ここからfotter↓ */
 
