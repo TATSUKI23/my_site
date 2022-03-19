@@ -237,10 +237,23 @@ body{
     align-items: center;
 }
 
+.bottom2_about_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.bottom2_about_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .list_b_about{
     list-style: none;
     font-size: 12px;
-    width:400px ;
 }
 
 .emp1_about{
@@ -760,9 +773,6 @@ body{
     height: 40px;
     margin: auto;
     background-color: rgb(238, 238, 238);
-
-
-
 }
 
 
