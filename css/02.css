@@ -813,7 +813,13 @@ body{
 
 
 
-
+/* ここからコンテンツ5 */
+.empty_blank2{    
+    width: 1200px;
+    height: 20px;
+    margin: auto;
+    background-color: rgb(238, 238, 238);
+}
 
 
 
