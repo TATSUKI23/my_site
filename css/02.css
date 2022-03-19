@@ -224,7 +224,7 @@ body{
 }
 
 .bottom1_about{
-    width: 80%;
+    width: 100%;
     height: 30px;
     font-size: 20px;
     font-weight: 600;
@@ -246,7 +246,7 @@ body{
 }
 
 .bottom3_about{
-    width: 80%;
+    width: 100%;
     height: 30px;
     font-size: 20px;
     font-weight: 600;
@@ -270,9 +270,8 @@ body{
 
 .bottom2_about_1{
     display: flex;
-    justify-content: center;
     align-items: center;
-    align-content: center;
+    justify-content: left;
 }
 
 .bottom2_about_2{
